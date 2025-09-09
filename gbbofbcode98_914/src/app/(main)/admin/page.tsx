@@ -1,0 +1,1 @@
+/src/app/(main)/leagues/[leagueId]/admin/page.tsx

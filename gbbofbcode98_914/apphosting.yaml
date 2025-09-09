@@ -1,0 +1,16 @@
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 1
+
+# Explicitly set the project ID for the build environment
+env:
+  - variable: GCLOUD_PROJECT
+    value: gbbo-6-test
+
+# Specify the node version to use in the build environment
+build:
+  runtime: node20
